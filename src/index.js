@@ -45,14 +45,6 @@
       };
 
       var handleType = {
-        input: function (event) {
-          focus(event);
-          event.stopPropagation();
-        },
-        textarea: function (event) {
-          focus(event);
-          event.stopPropagation();
-        },
         select: function (event) {
           focus(event);
           event.stopPropagation();
